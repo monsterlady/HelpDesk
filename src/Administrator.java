@@ -1,4 +1,5 @@
 import Employee.Employees;
+import Exceptions.HelpDeskException;
 import Tickets.Ticket;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -17,7 +18,7 @@ public class Administrator {
         this.tickets = new ArrayList<>();
     }
 
-    public void scanAllEmployees(String nameOfTheFile) throws HelpDeskException{
+    public void scanAllEmployees(String nameOfTheFile) throws HelpDeskException {
         try{
             String jsonString = new String(Files.readAllBytes(Paths.get(nameOfTheFile)));
             JSONArray jsonArray = new JSONArray(jsonString);
@@ -33,11 +34,11 @@ public class Administrator {
     }
 
     public void printAllEmployees(){
-        System.out.println("Employees:: ");
-        System.out.append("\n");
+        System.out.println("Employees: ");
         for(Employees each : employees){
-            System.out.println(each.toString());
+            System.out.println("   " + each.toString());
         }
+        System.out.append("\n");
     }
 
     public void addNewEmployee(Employees nw){
@@ -68,10 +69,10 @@ public class Administrator {
 
     public void printAllTickets(){
         System.out.println("Tickets: ");
-        System.out.append("\n");
         for (Ticket each: tickets
              ) {
             System.out.println(each.toString());
         }
+        System.out.append("\n");
     }
 }

@@ -1,3 +1,5 @@
+package Exceptions;
+
 public class HelpDeskException extends Exception {
     private String message;
 

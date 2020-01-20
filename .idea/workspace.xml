@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2f83704-a69d-49eb-aafb-61d464f32be2" name="Default" comment="" />
+    <list default="true" id="b2f83704-a69d-49eb-aafb-61d464f32be2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Administrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Administrator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/HelpDeskException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelpDeskException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/HelpDeskException.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,18 +28,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
   </component>
   <component name="ProjectId" id="1Wfq2DLT2sUaAYFIiNZU5iTMEn5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -132,7 +146,7 @@
       <workItem from="1516032751928" duration="1614000" />
       <workItem from="1516084512772" duration="4280000" />
       <workItem from="1516089193791" duration="128000" />
-      <workItem from="1579550788358" duration="6214000" />
+      <workItem from="1579550788358" duration="7566000" />
     </task>
     <servers />
   </component>
@@ -148,22 +162,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579550794041" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1579557006711">
+    <state x="575" y="114" key="CommitChangelistDialog2" timestamp="1579558395787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579557006711" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1579557006711">
+    <state x="575" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579558395787" />
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1579558373131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579557006711" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1579557006711">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579558373131" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1579558373131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579557006711" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1579557006711">
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579558373131" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1579558373130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579557006711" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579558373130" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1579558373131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579558373131" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579553417824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -180,6 +198,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579553417824" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579557448544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579557448544" />
+    <state x="760" y="385" key="git4idea.rebase.GitRebaseDialog" timestamp="1579557373717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="760" y="385" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579557373717" />
   </component>
   <component name="masterDetails">
     <states>

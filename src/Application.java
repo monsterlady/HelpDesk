@@ -1,5 +1,6 @@
 import Employee.Employees;
 import Employee.ServiceDeskEmployees;
+import Exceptions.HelpDeskException;
 import Tickets.HardwareTickets;
 import Tickets.SoftwareTickets;
 import Tickets.Ticket;
@@ -40,18 +41,22 @@ public class Application {
             //A software ticket with date: 17-01-2018, creator: ruud, "MacOS won't boot on my system", software: "MacOS X"
             Ticket s2 = new SoftwareTickets(admin.getEmployeeByUserName("ruud"),"MacOS won't boot on my system","MacOS X");
             admin.addNewTickets(s2);
-
-            //TODO: Solve ticket 2 and 3 (The last two)
-            //Ticket 2, solver: gerralt, message: "Try putting it into the USB port instead of the HDMI port."
-            admin.getTicketBySerialNum(2).setSlover(admin.getEmployeeByUserName("gerrelt"));
-            admin.getTicketBySerialNum(2).setSolution("fuck ur mopkm");
-            admin.getTicketBySerialNum(2).setStatus(false);
-            //Ticket 3, solver: gerralt, message: "Please replace your Dell laptop with a real system"
-            admin.getTicketBySerialNum(3).setSlover(admin.getEmployeeByUserName("gerrelt"));
-            admin.getTicketBySerialNum(3).setSolution("Please replace your Dell laptop with a real system");
-            admin.getTicketBySerialNum(3).setStatus(false);
-            admin.getEmployeeByUserName("123");
-        }catch(NullPointerException|HelpDeskException n){
+            try {
+                //TODO: Solve ticket 2 and 3 (The last two)
+                //Ticket 2, solver: gerralt, message: "Try putting it into the USB port instead of the HDMI port."
+                admin.getTicketBySerialNum(2).setSlover(admin.getEmployeeByUserName("gerralt"));
+                admin.getTicketBySerialNum(2).setSolution("Try putting it into the USB port instead of the HDMI port.");
+                admin.getTicketBySerialNum(2).setStatus(false);
+                //Ticket 3, solver: gerralt, message: "Please replace your Dell laptop with a real system"
+                admin.getTicketBySerialNum(3).setSlover(admin.getEmployeeByUserName("gerralt"));
+                admin.getTicketBySerialNum(3).setSolution("Please replace your Dell laptop with a real system");
+                admin.getTicketBySerialNum(3).setStatus(false);
+                /**下面语句会触发NullPointerException,去掉注释即可测试*/
+                //admin.getEmployeeByUserName("123").setUsername("123");
+            } catch (NullPointerException n){
+                throw new HelpDeskException("某票或雇员不存在！");
+            }
+        }catch(HelpDeskException n){
             n.printStackTrace();
         }
 
