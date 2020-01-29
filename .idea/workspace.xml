@@ -13,8 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4e2d3ac8-cd00-4c9a-a32a-0f725685d952" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/toets.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/toets.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/toets.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/toets.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/toets.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/toets.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/toets.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/toets.dir/objects.a" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <updated>1579828602534</updated>
       <workItem from="1579828603704" duration="1693000" />
       <workItem from="1580311029244" duration="12711000" />
-      <workItem from="1580329413844" duration="255000" />
+      <workItem from="1580329413844" duration="1222000" />
     </task>
     <task id="LOCAL-00001" summary="-29/01/2020 from PC">
       <created>1580326965717</created>
@@ -84,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580326965717</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-29/01/2020 from PC">
+      <created>1580329740547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580329740547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,10 +115,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580316114902" />
-    <state x="560" y="116" key="CommitChangelistDialog2" timestamp="1580326964373">
+    <state x="560" y="116" key="CommitChangelistDialog2" timestamp="1580329738712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580326964373" />
+    <state x="560" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580329738712" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1580326814097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -135,10 +143,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579829535526" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580327079986">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580330673866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580327079986" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580330673866" />
     <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580329414677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
