@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++ Projects/Project/Administrator.cpp
+fstream
+-
+Administrator.h
+D:/C++ Projects/Project/Administrator.h
+
+D:/C++ Projects/Project/Administrator.h
+vector
+-
+memory
+-
+Employee.h
+D:/C++ Projects/Project/Employee.h
+Ticket.h
+D:/C++ Projects/Project/Ticket.h
+HelpDeskEmployee.h
+D:/C++ Projects/Project/HelpDeskEmployee.h
+
+D:/C++ Projects/Project/Employee.h
+string
+-
+
+D:/C++ Projects/Project/HelpDeskEmployee.h
+memory
+-
+Employee.h
+D:/C++ Projects/Project/Employee.h
+Ticket.h
+D:/C++ Projects/Project/Ticket.h
+
+D:/C++ Projects/Project/Ticket.h
+iostream
+-
+memory
+-
+Employee.h
+D:/C++ Projects/Project/Employee.h
+
